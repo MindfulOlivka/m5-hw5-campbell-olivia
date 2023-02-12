@@ -1,0 +1,188 @@
+/* ==============
+
+Universal Styling
+
+=================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+body {
+   background: url(images/background2.jpeg)
+}
+
+
+
+header {
+    background-color: rgb(222, 253, 253);
+    padding: 10px;
+    border-bottom: 2px solid rgb(40, 78, 111);
+   
+}
+
+
+.navigation h1 {
+    float: left;
+    display: inline-block;
+    color: rgb(40, 78, 111);
+    font-style: italic;
+    
+}
+
+.navigation {
+   width: 100%;
+    margin: 0px auto;
+    padding: 10px 0px;
+    border: 5px;
+    border-color: black;
+}
+.nav {
+    list-style-type: none;
+    text-align: center;
+    margin: 0px;
+  
+   
+}
+
+.hover a:hover {
+    background-color: rgb(40, 78, 111);
+    
+}
+
+.nav li {
+    display: inline-block; 
+}
+
+.link {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 30px;
+    padding: 10px;
+    background: rgb(58, 122, 135);
+    text-decoration: none;
+
+}
+.float-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 10px 0px;
+    
+     
+}
+
+.box1 {
+    display: block;
+    margin: 10px;
+    background-color: rgb(222, 253, 253);
+    padding-bottom: 20px;
+    
+
+}
+
+#connect {
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+
+
+.box2 {
+    display: block;
+    margin: 10px;
+    background-color: rgb(222, 253, 253);
+    height: 215px;
+    
+}
+section {
+   float: left;
+   
+}
+aside {
+    float: right;
+    border-top: 2px solid rgb(58, 122, 135)
+    
+}
+
+h2 {
+    margin: 20px 30px;
+    color: rgb(40, 78, 111);
+} 
+
+ main p {
+    line-height: 150%;
+    padding: 0px 20px;
+    margin: 20px;
+    
+    
+}
+section > article {
+    float: left;
+    max-width: 700px;
+}
+
+ 
+#git,
+#linkedin,
+#overflow {
+    width: 50px;
+    margin:0 auto;
+    padding: 15px;
+    display: center;
+   
+}
+
+
+ article {
+    float: left;
+    max-width: 500px;
+    border-top: 2px solid rgb(58, 122, 135);
+    
+    
+ }
+
+ /* div.float {
+    float:right;
+    margin: 80px;
+    padding: 80px;
+    background-color:rgb(222, 253, 253) ;
+    max-width: 100px;
+    
+}*/ 
+
+
+
+
+img {
+    float: left;
+    width: 200px;
+    margin: 20px 20px 0px;
+    padding-left: 20px;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 25px;
+    display: inline-block;
+    background-color:rgb(58, 122, 135) ;
+    width: 100%;
+    color: white;
+   
+   
+   
+    }
+
+
+
+.about olivia img {
+    display: block;
+    margin: 0 auto;
+}
+  
