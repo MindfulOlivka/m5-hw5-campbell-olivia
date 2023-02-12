@@ -155,9 +155,10 @@ footer {
     display: inline-block;
     background-color:rgb(58, 122, 135) ;
     width: 100%;
+    
     color: white;
-   border-top: solid rgb(222, 253, 253);
-   
+    border-top: solid rgb(222, 253, 253);
+
    
     }
 
