@@ -86,14 +86,10 @@ header {
     text-align: center;
 }
 
-
-
 .box2 {
-    display: block;
     margin: 10px;
-    background-color: rgb(222, 253, 253);
-    height: 215px;
-    
+    background-color: rgb(222, 253, 253);  
+    height: 175px;
 }
 section {
    float: left;
@@ -144,9 +140,6 @@ section > article {
 
 
 
-
-
-
 img {
     float: left;
     width: 200px;
@@ -163,7 +156,7 @@ footer {
     background-color:rgb(58, 122, 135) ;
     width: 100%;
     color: white;
-   
+   border-top: solid rgb(222, 253, 253);
    
    
     }
@@ -175,3 +168,14 @@ footer {
     margin: 0 auto;
 }
   
+@media screen and (min-width: 400px) and (max-width: 980px) {
+    .box2 {
+        height: 345px;
+    } }
+
+@media screen and (min-width: 300px) and (max-width: 580px) {
+    .link {
+       font-size: 11px;
+       
+    }
+        }
